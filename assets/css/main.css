@@ -4740,3 +4740,7 @@ input, select, textarea {
 		width: 100%;
 		margin: 0 0 2em 0;
 	}
+
+	h2.major {
+		text-align: center;
+	}

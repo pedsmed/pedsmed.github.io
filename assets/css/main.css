@@ -268,7 +268,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-bottom: solid 2px;
-		margin: 3rem 0;
+		margin-bottom: 3rem;
 	}
 
 		hr.major {
@@ -2945,7 +2945,7 @@ input, select, textarea {
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 1.5rem 0;
 			text-align: center;
 		}
 

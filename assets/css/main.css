@@ -4739,3 +4739,15 @@ input, select, textarea {
 	h2.major {
 		text-align: center;
 	}
+
+	ul.venstre {
+		float: left;
+		display: inline-block;
+		padding-left: 20%;
+	}
+
+	ul.høyre {
+		float: right;
+		display: inline-block;
+		padding-right: 15%;
+	}

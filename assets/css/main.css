@@ -4771,6 +4771,12 @@ input, select, textarea {
 			padding-right: 10%;
 		}
 	}
+
+	@media screen and (max-width: 822px) {
+		ul.høyre {
+			padding-right: 5%;
+		}
+	}
 	
 	@media screen and (max-width: 736px) {
 		ul.venstre {

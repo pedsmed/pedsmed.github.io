@@ -4738,6 +4738,11 @@ input, select, textarea {
 
 	h2.major {
 		text-align: center;
+		padding-top:250px;
+	}
+
+	.utsyr {
+		text-align: center;
 	}
 
 	ul.venstre {
@@ -4750,4 +4755,33 @@ input, select, textarea {
 		float: right;
 		display: inline-block;
 		padding-right: 15%;
+	}
+
+	@media screen and (max-width: 1680px) {
+		h2.major {
+			padding-top: 150px;
+		}
+	}
+	
+	@media screen and (max-width: 980px) {
+		ul.venstre {
+			padding-left: 10%;
+		}
+		ul.høyre {
+			padding-right: 10%;
+		}
+	}
+	
+	@media screen and (max-width: 736px) {
+		ul.venstre {
+			float: none;
+			padding-left: 25%;
+		}
+		ul.høyre {
+			float: none;
+			padding-left: 25%;
+		}
+		h2.major {
+			padding-top: 0px;
+		}
 	}
